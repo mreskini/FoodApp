@@ -3,7 +3,7 @@ function App() {
     <div>
       hello world noe is here
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
