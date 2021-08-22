@@ -17,6 +17,18 @@ const DeliveryBoy = () => {
                     <p className="theme-content-color font-weight-400 line-height-30">
                         Effort into each unique project knowing that the more we put into it, the more we get out of it.
                     </p>
+                    <h4 className="theme-title-color font-weight-600">
+                        Food Management
+                    </h4>
+                    <p className="theme-content-color font-weight-400 line-height-30">
+                        Effort into each unique project knowing that the more we put into it, the more we get out of it.
+                    </p>
+                    <h4 className="theme-title-color font-weight-600">
+                        Delivery Management
+                    </h4>
+                    <p className="theme-content-color font-weight-400 line-height-30">
+                        Effort into each unique project knowing that the more we put into it, the more we get out of it.
+                    </p>
                 </div>
             </div>
         </div>
