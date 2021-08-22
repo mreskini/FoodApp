@@ -1,9 +1,11 @@
 const ComponentWrapper = (WrappedComponent) => {
     return (props) => {
         return (
-            <div className="row">
-                <div className="col-11 mx-auto p-0 pb-5">
-                    <WrappedComponent {...props} />
+            <div className="container-fluid">
+                <div className="row">
+                    <div className="col-12">
+                        <WrappedComponent {...props} />
+                    </div>
                 </div>
             </div>
         )
