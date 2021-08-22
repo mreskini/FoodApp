@@ -33,5 +33,5 @@
 }
 
 .line-height-30{
-    line-height: 30px;
+    line-height: 30px !important;
 }
