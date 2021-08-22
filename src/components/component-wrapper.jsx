@@ -3,7 +3,7 @@ const ComponentWrapper = (WrappedComponent, backgroundColorCssClassName) => {
         return (
             <div className="container-fluid">
                 <div className={`row ${backgroundColorCssClassName}`}>
-                    <div className="col-10 mx-auto">
+                    <div className="col-10 mx-auto px-4">
                         <WrappedComponent {...props} />
                     </div>
                 </div>
