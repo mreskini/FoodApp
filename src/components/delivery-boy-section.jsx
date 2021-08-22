@@ -6,9 +6,12 @@ const DeliveryBoy = () => {
             <div className="theme-orange-color display-2 font-weight-bold">
                 Customers to get delivered their ordered foods
             </div>
-            <div className="row pt-5">
+            <div className="row py-5">
                 <div className="col-lg-6">
                     <img src={deliveryBoyImage} alt="Delivery Boy Image" />
+                </div>
+                <div className="col-lg-6">
+
                 </div>
             </div>
         </div>
