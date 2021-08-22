@@ -3,7 +3,7 @@ const ComponentWrapper = (WrappedComponent) => {
         return (
             <div className="container-fluid">
                 <div className="row">
-                    <div className="col-12">
+                    <div className="col-10 mx-auto">
                         <WrappedComponent {...props} />
                     </div>
                 </div>
