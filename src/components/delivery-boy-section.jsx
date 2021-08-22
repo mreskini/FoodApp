@@ -8,10 +8,12 @@ const DeliveryBoy = () => {
             </div>
             <div className="row py-5">
                 <div className="col-lg-6">
-                    <img src={deliveryBoyImage} alt="Delivery Boy Image" />
+                    <img src={deliveryBoyImage} className="img-fluid pr-3" alt="Delivery Boy Image" />
                 </div>
                 <div className="col-lg-6">
-
+                    <p className="theme-title-color h4 font-weight-600">
+                        Menu Management
+                    </p>
                 </div>
             </div>
         </div>
