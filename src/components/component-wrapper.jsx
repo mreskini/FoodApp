@@ -1,7 +1,6 @@
-import { useEffect } from 'react'
 import { Navbar, Nav } from 'react-bootstrap'
 import { NavLink } from 'react-router-dom'
-const Wrapper = (WrappedComponent, title) => {
+const ComponentWrapper = (WrappedComponent, title) => {
     return (props) => {
         return (
             <div className="container-fluid">
@@ -45,4 +44,4 @@ const Wrapper = (WrappedComponent, title) => {
         )
     }
 }
-export default Wrapper
+export default ComponentWrapper
