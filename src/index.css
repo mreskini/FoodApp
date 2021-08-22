@@ -1,3 +1,7 @@
 :root{
     --theme-orange-color: #FAAE2D;
 }
+
+.theme-orange-color{
+    color: var(--theme-orange-color) !important;
+}
