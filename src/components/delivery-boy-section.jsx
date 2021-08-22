@@ -2,7 +2,7 @@ import ComponentWrapper from "./component-wrapper"
 
 const DeliveryBoy = () => {
     return (
-        <div className>
+        <div>
             <div className="theme-orange-color display-2 font-weight-bold">
                 Customers to get delivered their ordered foods
             </div>
@@ -10,5 +10,5 @@ const DeliveryBoy = () => {
     )
 }
 
-const DeliveryBoySection = ComponentWrapper(DeliveryBoy)
+const DeliveryBoySection = ComponentWrapper(DeliveryBoy, "delivery-boy-section-bg")
 export default DeliveryBoySection
