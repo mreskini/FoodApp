@@ -10,9 +10,12 @@ const DeliveryBoy = () => {
                 <div className="col-lg-6">
                     <img src={deliveryBoyImage} className="img-fluid pr-3" alt="Delivery Boy Image" />
                 </div>
-                <div className="col-lg-6">
-                    <p className="theme-title-color h4 font-weight-600">
+                <div className="col-lg-6 my-auto">
+                    <h4 className="theme-title-color font-weight-600">
                         Menu Management
+                    </h4>
+                    <p>
+                        Effort into each unique project knowing that the more we put into it, the more we get out of it.
                     </p>
                 </div>
             </div>
