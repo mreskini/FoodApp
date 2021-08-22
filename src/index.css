@@ -11,6 +11,10 @@
     color: var(--theme-orange-color) !important;
 }
 
+.theme-title-color{
+    color: var(--theme-title-color) !important;
+}
+
 .delivery-boy-section-bg{
     background-color: #F9F0E8 !important;
 }
