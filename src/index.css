@@ -2,6 +2,10 @@
     --theme-orange-color: #FAAE2D;
 }
 
+*{
+    font-family: "Roboto", Sans-serif;
+}
+
 .theme-orange-color{
     color: var(--theme-orange-color) !important;
 }
