@@ -22,8 +22,18 @@ const Hero = () => {
                         that have been pesticide-free for at least three years
                         and from free range flocks that receive no antibiotics
                     </p>
-                    <img src={appStore} alt="App Store" className="img-fluid mr-3" />
-                    <img src={googlePlay} alt="App Store" className="img-fluid" />
+                    <div className="mt-5">
+                        <img
+                            src={appStore}
+                            alt="App Store"
+                            className="img-fluid mr-3"
+                        />
+                        <img
+                            src={googlePlay}
+                            alt="Google Play"
+                            className="img-fluid"
+                        />
+                    </div>
                 </div>
                 <div className="col-lg-5">
                     <img
