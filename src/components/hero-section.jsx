@@ -1,6 +1,8 @@
 import ComponentWrapper from "./component-wrapper"
 import wavesImage from "../assets/img/waves.png"
 import sandwichImage from "../assets/img/sandwich.png"
+import googlePlay from "../assets/img/google-play.png"
+import appStore from "../assets/img/app-store.png"
 
 const Hero = () => {
     return (
@@ -20,6 +22,8 @@ const Hero = () => {
                         that have been pesticide-free for at least three years
                         and from free range flocks that receive no antibiotics
                     </p>
+                    <img src={appStore} alt="App Store" className="img-fluid mr-3" />
+                    <img src={googlePlay} alt="App Store" className="img-fluid" />
                 </div>
                 <div className="col-lg-5">
                     <img
