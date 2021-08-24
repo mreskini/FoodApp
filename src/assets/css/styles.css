@@ -1,3 +1,7 @@
+* {
+  font-family: "Poppins", Sans-serif;
+}
+
 .theme-orange-color {
   color: var(--theme-orange-color) !important;
 }
@@ -11,7 +15,7 @@
 }
 
 .delivery-boy-section-bg {
-  background-color: #F9F0E8 !important;
+  background-color: #f9f0e8 !important;
 }
 
 .font-weight-600 {

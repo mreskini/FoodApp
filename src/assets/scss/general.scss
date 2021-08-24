@@ -1,27 +1,31 @@
-.theme-orange-color{
-    color: var(--theme-orange-color) !important;
+* {
+  font-family: "Poppins", Sans-serif;
 }
 
-.theme-title-color{
-    color: var(--theme-title-color) !important;
+.theme-orange-color {
+  color: var(--theme-orange-color) !important;
 }
 
-.theme-content-color{
-    color: var(--theme-content-color) !important;
+.theme-title-color {
+  color: var(--theme-title-color) !important;
 }
 
-.delivery-boy-section-bg{
-    background-color: #F9F0E8 !important;
+.theme-content-color {
+  color: var(--theme-content-color) !important;
 }
 
-.font-weight-600{
-    font-weight: 600 !important;
+.delivery-boy-section-bg {
+  background-color: #f9f0e8 !important;
 }
 
-.font-weight-400{
-    font-weight: 400 !important;
+.font-weight-600 {
+  font-weight: 600 !important;
 }
 
-.line-height-30{
-    line-height: 30px !important;
+.font-weight-400 {
+  font-weight: 400 !important;
+}
+
+.line-height-30 {
+  line-height: 30px !important;
 }
