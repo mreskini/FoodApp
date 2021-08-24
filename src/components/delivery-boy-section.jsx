@@ -8,7 +8,7 @@ const DeliveryBoy = () => {
             </div>
             <div className="row py-5">
                 <div className="col-lg-6">
-                    <img src={deliveryBoyImage} className="img-fluid pr-3" alt="Delivery Boy Image" />
+                    <img src={deliveryBoyImage} className="img-fluid pr-3" alt="Delivery Boy" />
                 </div>
                 <div className="col-lg-6 my-auto">
                     <h4 className="theme-title-color font-weight-600 my-3">
