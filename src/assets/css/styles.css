@@ -32,5 +32,9 @@
 
 .hero-section-bg {
   background-image: url("../img/hero-bg.png");
-  height: 1000px !important;
+  background-color: #f9f0e8;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 1100px !important;
 }
