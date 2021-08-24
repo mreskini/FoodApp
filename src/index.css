@@ -8,30 +8,3 @@
     font-family: "Poppins", Sans-serif;
 }
 
-.theme-orange-color{
-    color: var(--theme-orange-color) !important;
-}
-
-.theme-title-color{
-    color: var(--theme-title-color) !important;
-}
-
-.theme-content-color{
-    color: var(--theme-content-color) !important;
-}
-
-.delivery-boy-section-bg{
-    background-color: #F9F0E8 !important;
-}
-
-.font-weight-600{
-    font-weight: 600 !important;
-}
-
-.font-weight-400{
-    font-weight: 400 !important;
-}
-
-.line-height-30{
-    line-height: 30px !important;
-}
