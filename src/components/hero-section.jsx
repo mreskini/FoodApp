@@ -9,7 +9,7 @@ const Hero = () => {
             Always choose happy food
           </div>
           <img src={wavesImage} alt="Waves" className="my-5" />
-          <p className="text-white font-karla font-weight-500 h5">
+          <p className="text-white font-karla font-weight-500 fs-20">
             These tasty certified USDA Organic eggs come from farms that have
             been pesticide-free for at least three years and from free range
             flocks that receive no antibiotics
