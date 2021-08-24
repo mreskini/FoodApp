@@ -30,6 +30,10 @@
   font-weight: 400 !important;
 }
 
+.font-karla {
+  font-family: "Karla" !important;
+}
+
 .line-height-30 {
   line-height: 30px;
 }

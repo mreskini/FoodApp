@@ -18,9 +18,9 @@
   background-color: #f9f0e8;
 }
 
-
-.font-weight-700{
-    font-weight: 700 !important;
+// begin: fonts
+.font-weight-700 {
+  font-weight: 700 !important;
 }
 
 .font-weight-600 {
@@ -30,9 +30,11 @@
 .font-weight-400 {
   font-weight: 400 !important;
 }
+.font-karla {
+  font-family: "Karla" !important;
+}
+// end: fonts
 
 .line-height-30 {
   line-height: 30px;
 }
-
-
