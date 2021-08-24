@@ -1,5 +1,5 @@
-import ComponentWrapper from "./component-wrapper";
-import wavesImage from "../assets/img/waves.png";
+import ComponentWrapper from "./component-wrapper"
+import wavesImage from "../assets/img/waves.png"
 const Hero = () => {
   return (
     <div className="py-5 col-12">
@@ -15,10 +15,13 @@ const Hero = () => {
             flocks that receive no antibiotics
           </p>
         </div>
+        <div className="col-lg-4">
+
+        </div>
       </div>
     </div>
   );
 };
 
-const HeroSection = ComponentWrapper(Hero, "hero-section-bg");
-export default HeroSection;
+const HeroSection = ComponentWrapper(Hero, "hero-section-bg")
+export default HeroSection
