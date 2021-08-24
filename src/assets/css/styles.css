@@ -18,6 +18,10 @@
   background-color: #f9f0e8;
 }
 
+.fs-20 {
+  font-size: 20px !important;
+}
+
 .font-weight-700 {
   font-weight: 700 !important;
 }
