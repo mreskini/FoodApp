@@ -6,7 +6,7 @@ const Hero = () => {
     return (
         <div className="py-5 col-12">
             <div className="row">
-                <div className="col-lg-8">
+                <div className="col-lg-7">
                     <div className="display-1 font-weight-600 hero-main-title">
                         Always choose happy food
                     </div>
@@ -21,12 +21,14 @@ const Hero = () => {
                         and from free range flocks that receive no antibiotics
                     </p>
                 </div>
+                <div className="col-lg-5">
+                    <img
+                        src={sandwichImage}
+                        alt="Sandwich"
+                        className="img-fluid float-right"
+                    />
+                </div>
             </div>
-            <img
-                src={sandwichImage}
-                alt="Sandwich"
-                className="img-fluid float-right"
-            />
         </div>
     )
 }
