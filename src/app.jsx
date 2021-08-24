@@ -1,11 +1,13 @@
-import DeliveryBoySection from "./components/delivery-boy-section"
+import DeliveryBoySection from "./components/delivery-boy-section";
+import HeroSection from "./components/hero-section";
 
 const App = () => {
-    return (
-        <>
-            <DeliveryBoySection />
-        </>
-    )
-}
+  return (
+    <>
+      <HeroSection />
+      <DeliveryBoySection />
+    </>
+  );
+};
 
-export default App
+export default App;
