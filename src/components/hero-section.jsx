@@ -1,6 +1,6 @@
-import ComponentWrapper from "./component-wrapper";
-import wavesImage from "../assets/img/waves.png";
-import sandwichImage from "../assets/img/sandwich.png";
+import ComponentWrapper from "./component-wrapper"
+import wavesImage from "../assets/img/waves.png"
+import sandwichImage from "../assets/img/sandwich.png"
 
 const Hero = () => {
     return (
@@ -28,8 +28,8 @@ const Hero = () => {
                 className="img-fluid float-right"
             />
         </div>
-    );
-};
+    )
+}
 
-const HeroSection = ComponentWrapper(Hero, "hero-section-bg");
-export default HeroSection;
+const HeroSection = ComponentWrapper(Hero, "hero-section-bg")
+export default HeroSection
