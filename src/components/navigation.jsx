@@ -30,7 +30,7 @@ export default function Navigation() {
                             Overview
                         </Nav.Link>
                     </Nav>
-                    <div className="btn btn- ml-auto">
+                    <div className="btn btn-theme-orange ml-auto">
                         Get Started
                     </div>
                 </Navbar.Collapse>
