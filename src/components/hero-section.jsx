@@ -8,8 +8,8 @@ import Navigation from "./navigation"
 const Hero = () => {
     return (
         <>
-            <Navigation />
             <div className="py-5 col-12">
+                <Navigation />
                 <div className="row">
                     <div className="col-lg-7">
                         <div className="display-1 font-weight-600 hero-main-title">

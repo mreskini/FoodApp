@@ -2,14 +2,14 @@ import { Container, Nav, Navbar } from "react-bootstrap"
 import logoWhite from "../assets/img/logo-white.png"
 export default function Navigation() {
     return (
-        <Navbar expand="lg">
-            <Container>
-                <Navbar.Brand href="#">
-                    <img src={logoWhite} alt="Logo White" />
+        <Navbar expand="lg" className="p-0">
+            <Container className="mx-0">
+                <Navbar.Brand href="#" className="ml-auto">
+                    <img src={logoWhite} alt="Logo White" className="img-fluid" />
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="me-auto">
+                    <Nav className="mx-auto">
                         <Nav.Link href="#" className="navigation-bar-item">
                             Home
                         </Nav.Link>
