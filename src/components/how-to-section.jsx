@@ -3,7 +3,7 @@ import { BsSearch, BsLayoutTextSidebar, BsReplyAll } from "react-icons/bs"
 const HowTo = () => {
     return (
         <div className="py-5 my-5">
-            <div className="display-4 font-weight-600 text-center">
+            <div className="h1 font-weight-600 text-center my-5 py-5">
                 <span className="how-to-section-title">How it works</span>
             </div>
             <div className="my-5 py-5">
