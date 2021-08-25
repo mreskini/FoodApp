@@ -61,6 +61,10 @@
   line-height: 30px;
 }
 
+.margin-bottom-100 {
+  margin-bottom: 100px !important;
+}
+
 .hero-section-bg {
   background-image: url("../img/hero-bg.png");
   background-color: #f9f0e8;
