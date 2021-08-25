@@ -1,9 +1,14 @@
 import ComponentWrapper from "./component-wrapper"
+import howToBackgroundImage from "../assets/img/how-to-bg.png"
 
 const HowTo = () => {
     return (
         <>
-            Hello world Neo is here!
+            <div className="py-5 my-5">
+                <div className="theme-orange-color display-3 font-weight-bold">
+                    How it works
+                </div>
+            </div>
         </>
     )
 }
