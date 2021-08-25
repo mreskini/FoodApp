@@ -109,3 +109,10 @@
   background-size: cover;
   background-position: center center;
 }
+
+.sticky-btn {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  display: inline-block;
+}
