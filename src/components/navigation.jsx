@@ -3,9 +3,13 @@ import logoWhite from "../assets/img/logo-white.png"
 export default function Navigation() {
     return (
         <Navbar expand="lg" className="p-0">
-            <Container className="mx-0">
+            <Container className="mx-0 col-12">
                 <Navbar.Brand href="#" className="ml-auto">
-                    <img src={logoWhite} alt="Logo White" className="img-fluid" />
+                    <img
+                        src={logoWhite}
+                        alt="Logo White"
+                        className="img-fluid"
+                    />
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
@@ -26,6 +30,7 @@ export default function Navigation() {
                             Overview
                         </Nav.Link>
                     </Nav>
+                    <div className="btn btn-warning ml-auto">Get Started</div>
                 </Navbar.Collapse>
             </Container>
         </Navbar>
