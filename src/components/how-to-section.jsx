@@ -28,6 +28,16 @@ const HowTo = () => {
                             Sequoir donates a percentage of the fees back
                         </p>
                     </div>
+                    <div className="col-lg-3 text-center">
+                        <BsLayoutTextSidebar className="display-2 mb-4" />
+                        <h1 className="how-to-section-title h3 font-weight-600 text-center my-4">
+                            Order Food
+                        </h1>
+                        <p className="text-white text-center font-karla">
+                            Each time a digital asset is purchased or sold,
+                            Sequoir donates a percentage of the fees back
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
