@@ -1,5 +1,11 @@
+import { BsChevronUp } from "react-icons/bs"
+
 const MoveToTop = () => {
-    return <></>
+    return(
+        <div>
+            <BsChevronUp />
+        </div>
+    )
 }
 
 export default MoveToTop
