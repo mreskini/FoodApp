@@ -5,7 +5,7 @@ const HowTo = () => {
     return (
         <>
             <div className="py-5 my-5">
-                <div className="theme-orange-color display-3 font-weight-bold">
+                <div className="theme-orange-color display-3 font-weight-bold text-center">
                     How it works
                 </div>
             </div>
