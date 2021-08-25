@@ -84,3 +84,7 @@
 .navigation-bar-item:hover {
   color: #faae2d !important;
 }
+
+.active-section {
+  color: #faae2d !important;
+}

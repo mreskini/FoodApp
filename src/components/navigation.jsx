@@ -14,7 +14,7 @@ export default function Navigation() {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mx-auto">
-                        <Nav.Link href="#" className="navigation-bar-item">
+                        <Nav.Link href="#" className="navigation-bar-item active-section">
                             Home
                         </Nav.Link>
                         <Nav.Link href="#" className="navigation-bar-item">
