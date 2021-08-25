@@ -2,7 +2,7 @@ import { Container, Nav, Navbar } from "react-bootstrap"
 import logoWhite from "../assets/img/logo-white.png"
 export default function Navigation() {
     return (
-        <Navbar expand="lg" className="p-0">
+        <Navbar expand="lg" className="p-0" id="navigation">
             <Container className="mx-0 col-12">
                 <Navbar.Brand href="#" className="ml-auto">
                     <img
