@@ -2,7 +2,7 @@ import ComponentWrapper from "./component-wrapper"
 import deliveryBoyImage from "../assets/img/delivery-boy.png"
 const DeliveryBoy = () => {
     return (
-        <div className="py-5">
+        <div className="py-5 my-5">
             <div className="theme-orange-color display-3 font-weight-bold">
                 Customers to get delivered their ordered foods
             </div>
