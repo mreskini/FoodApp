@@ -7,7 +7,7 @@ const HowTo = () => {
                 <span className="how-to-section-title">How it works</span>
             </div>
             <div className="my-5 py-5">
-                <div className="row">
+                <div className="row pb-5 mb-5">
                     <div className="col-lg-4 text-center px-5">
                         <BsSearch className="display-2 mb-4" />
                         <h1 className="how-to-section-title h3 font-weight-600 text-center my-4">
