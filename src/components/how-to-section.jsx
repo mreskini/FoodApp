@@ -8,7 +8,7 @@ const HowTo = () => {
             </div>
             <div className="my-5 py-5">
                 <div className="row">
-                    <div className="col-lg-3 text-center">
+                    <div className="col-lg-4 text-center px-5">
                         <BsSearch className="display-2 mb-4" />
                         <h1 className="how-to-section-title h3 font-weight-600 text-center my-4">
                             Search Resturant
@@ -18,7 +18,7 @@ const HowTo = () => {
                             Sequoir donates a percentage of the fees back
                         </p>
                     </div>
-                    <div className="col-lg-3 text-center">
+                    <div className="col-lg-4 text-center px-5">
                         <BsLayoutTextSidebar className="display-2 mb-4" />
                         <h1 className="how-to-section-title h3 font-weight-600 text-center my-4">
                             Order Food
@@ -28,7 +28,7 @@ const HowTo = () => {
                             Sequoir donates a percentage of the fees back
                         </p>
                     </div>
-                    <div className="col-lg-3 text-center">
+                    <div className="col-lg-4 text-center px-5">
                         <BsReplyAll className="display-2 mb-4" />
                         <h1 className="how-to-section-title h3 font-weight-600 text-center my-4">
                             Deliver to You
