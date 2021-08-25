@@ -30,7 +30,9 @@ export default function Navigation() {
                             Overview
                         </Nav.Link>
                     </Nav>
-                    <div className="btn btn-warning ml-auto">Get Started</div>
+                    <div className="btn btn- ml-auto">
+                        Get Started
+                    </div>
                 </Navbar.Collapse>
             </Container>
         </Navbar>

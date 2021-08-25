@@ -46,6 +46,11 @@
   font-family: "Karla" !important;
 }
 
+.btn-theme-orange {
+  background-color: #727777;
+  color: white;
+}
+
 .line-height-30 {
   line-height: 30px;
 }
