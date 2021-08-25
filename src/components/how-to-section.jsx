@@ -2,7 +2,7 @@ import ComponentWrapper from "./component-wrapper"
 import { BsSearch, BsLayoutTextSidebar, BsReplyAll } from "react-icons/bs"
 const HowTo = () => {
     return (
-        <div className="padding-bottom-150 padding-top-150">
+        <div className="padding-bottom-150 padding-top-200">
             <div className="py-5 my-5">
                 <div className="h1 font-weight-600 text-center">
                     <span className="how-to-section-title">How it works</span>
