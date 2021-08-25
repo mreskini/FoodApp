@@ -13,5 +13,5 @@ const HowTo = () => {
     )
 }
 
-const HowToSection = ComponentWrapper(HowTo, "")
+const HowToSection = ComponentWrapper(HowTo, "how-to-section-bg")
 export default HowToSection
