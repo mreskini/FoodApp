@@ -64,6 +64,12 @@
 }
 
 .navigation-bar-item {
-  font-weight: bold;
-  color: white;
+  font-weight: 500;
+  color: #ffffff !important;
+  -webkit-transition: 500ms;
+  transition: 500ms;
+}
+
+.navigation-bar-item:hover {
+  color: #faae2d !important;
 }
