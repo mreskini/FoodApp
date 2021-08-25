@@ -1,5 +1,5 @@
-const  MoveToTop = () => {
-
+const MoveToTop = () => {
+    return <></>
 }
 
 export default MoveToTop
