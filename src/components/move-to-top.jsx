@@ -2,7 +2,7 @@ import { BsChevronUp } from "react-icons/bs"
 
 const MoveToTop = () => {
     return(
-        <div className="btn stricky-btn">
+        <div className="btn btn-theme-orange sticky-btn">
             <BsChevronUp />
         </div>
     )

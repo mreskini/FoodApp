@@ -1,6 +1,13 @@
-.sticky-btn {
+.sticky-btn{
     position: fixed;
     right: 20px;
     bottom: 20px;
     display: inline-block;
+}
+.btn-move-to-top{
+    background-color: $theme-orange-color !important;
+    color: white !important;
+}
+.btn-move-to-top:hover{
+    color: #A30F10 !important;
 }
