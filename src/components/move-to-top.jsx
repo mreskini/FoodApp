@@ -11,7 +11,7 @@ const MoveToTop = () => {
             if (window.pageYOffset > sticky) btn.classList.add("sticky-btn")
             else btn.classList.remove("sticky-btn")
         }
-    }, [])
+    })
     return (
         <div
             className="btn btn-lg btn-move-to-top"
