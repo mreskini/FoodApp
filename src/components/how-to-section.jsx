@@ -5,8 +5,8 @@ const HowTo = () => {
     return (
         <>
             <div className="py-5 my-5">
-                <div className="theme-orange-color display-3 font-weight-bold text-center">
-                    How it works
+                <div className="display-3 font-weight-bold text-center">
+                    <span className="how-to-section-title">How it works</span>
                 </div>
             </div>
         </>
