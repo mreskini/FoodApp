@@ -92,3 +92,11 @@
 .how-to-section-title {
   color: #B55700;
 }
+
+.how-to-section-bg {
+  background-image: url("../img/how-to-bg.png");
+  background-color: #f9f0e8;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}

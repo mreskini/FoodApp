@@ -5,7 +5,7 @@ const HowTo = () => {
     return (
         <>
             <div className="py-5 my-5">
-                <div className="display-3 font-weight-bold text-center">
+                <div className="display-4 font-weight-bold text-center">
                     <span className="how-to-section-title">How it works</span>
                 </div>
             </div>
