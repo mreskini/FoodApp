@@ -10,19 +10,19 @@ export default function Navigation() {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
-                        <Nav.Link href="#" className="">
+                        <Nav.Link href="#" className="bold">
                             Home
                         </Nav.Link>
-                        <Nav.Link href="#" className="">
+                        <Nav.Link href="#" className="bold">
                             Pages
                         </Nav.Link>
-                        <Nav.Link href="#" className="">
+                        <Nav.Link href="#" className="bold">
                             About Us
                         </Nav.Link>
-                        <Nav.Link href="#" className="">
+                        <Nav.Link href="#" className="bold">
                             How?
                         </Nav.Link>
-                        <Nav.Link href="#" className="">
+                        <Nav.Link href="#" className="bold">
                             Overview
                         </Nav.Link>
                     </Nav>

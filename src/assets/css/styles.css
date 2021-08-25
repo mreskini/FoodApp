@@ -62,3 +62,8 @@
 .hero-main-title {
   color: #a30f10;
 }
+
+.navigation-bar-item {
+  font-weight: bold;
+  color: white;
+}
