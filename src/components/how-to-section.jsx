@@ -1,5 +1,5 @@
 import ComponentWrapper from "./component-wrapper"
-import { BsSearch, BsLayoutTextSidebar } from "react-icons/bs"
+import { BsSearch, BsLayoutTextSidebar, BsReplyAll } from "react-icons/bs"
 const HowTo = () => {
     return (
         <div className="py-5 my-5">
@@ -29,9 +29,9 @@ const HowTo = () => {
                         </p>
                     </div>
                     <div className="col-lg-3 text-center">
-                        <BsLayoutTextSidebar className="display-2 mb-4" />
+                        <BsReplyAll className="display-2 mb-4" />
                         <h1 className="how-to-section-title h3 font-weight-600 text-center my-4">
-                            Order Food
+                            Deliver to You
                         </h1>
                         <p className="text-white text-center font-karla">
                             Each time a digital asset is purchased or sold,
