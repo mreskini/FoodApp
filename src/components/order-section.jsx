@@ -4,13 +4,6 @@ const Order = () => {
     return (
         <div className="py-5 my-5">
             <div className="row py-5">
-                <div className="col-lg-6">
-                    <img
-                        src={orderImage}
-                        className="img-fluid pr-3"
-                        alt="Delivery Boy"
-                    />
-                </div>
                 <div className="col-lg-6 my-auto">
                     <h4 className="theme-title-color font-weight-600 my-3">
                         Menu Management
@@ -33,6 +26,13 @@ const Order = () => {
                         Effort into each unique project knowing that the more we
                         put into it, the more we get out of it.
                     </p>
+                </div>
+                <div className="col-lg-6">
+                    <img
+                        src={orderImage}
+                        className="img-fluid pr-3"
+                        alt="Delivery Boy"
+                    />
                 </div>
             </div>
         </div>
