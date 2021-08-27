@@ -2,6 +2,7 @@ import DeliveryBoySection from "./components/delivery-boy-section";
 import HeroSection from "./components/hero-section";
 import HowToSection from "./components/how-to-section";
 import MoveToTop from "./components/move-to-top";
+import OrderSection from "./components/order-component";
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
       <HeroSection />
       <DeliveryBoySection />
       <HowToSection />
+      <OrderSection />
       <MoveToTop />
     </>
   );
