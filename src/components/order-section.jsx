@@ -1,15 +1,12 @@
 import ComponentWrapper from "./component-wrapper"
-import deliveryBoyImage from "../assets/img/delivery-boy.png"
+import orderImage from "../assets/img/order-bg.png"
 const Order = () => {
     return (
         <div className="py-5 my-5">
-            <div className="theme-orange-color display-3 font-weight-bold">
-                Customers to get delivered their ordered foods
-            </div>
             <div className="row py-5">
                 <div className="col-lg-6">
                     <img
-                        src={deliveryBoyImage}
+                        src={orderImage}
                         className="img-fluid pr-3"
                         alt="Delivery Boy"
                     />
