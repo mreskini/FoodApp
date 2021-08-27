@@ -42,8 +42,5 @@ const Order = () => {
     )
 }
 
-const OrderSection = ComponentWrapper(
-    Order,
-    "delivery-boy-section-bg"
-)
+const OrderSection = ComponentWrapper(Order, "delivery-boy-section-bg")
 export default OrderSection
