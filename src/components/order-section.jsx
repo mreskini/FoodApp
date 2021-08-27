@@ -1,5 +1,7 @@
 import ComponentWrapper from "./component-wrapper"
 import orderImage from "../assets/img/order-bg.png"
+import { BsCheckCircle } from "react-icons/bs"
+
 const Order = () => {
     return (
         <div className="py-5 my-5">
@@ -16,11 +18,18 @@ const Order = () => {
                         donates a percentage of the fees back into the
                         development
                     </p>
-                    <ul>
-                        <li>
-                            <p className="theme-content-color font-weight-500">
-                                Each time a digital asset is purchased or sold
-                            </p>
+                    <ul className="list-inline">
+                        <li className="theme-content-color font-weight-500 mb-2">
+                            <BsCheckCircle className="theme-orange-color h5 my-auto mr-3" />
+                            Each time a digital asset is purchased or sold
+                        </li>
+                        <li className="theme-content-color font-weight-500 mb-2">
+                            <BsCheckCircle className="theme-orange-color h5 my-auto mr-3" />
+                            Each time a digital asset is purchased or sold
+                        </li>
+                        <li className="theme-content-color font-weight-500 mb-2">
+                            <BsCheckCircle className="theme-orange-color h5 my-auto mr-3" />
+                            Each time a digital asset is purchased or sold
                         </li>
                     </ul>
                 </div>
