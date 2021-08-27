@@ -16,6 +16,13 @@ const Order = () => {
                         donates a percentage of the fees back into the
                         development
                     </p>
+                    <ul>
+                        <li>
+                            <p className="theme-content-color font-weight-500">
+                                Each time a digital asset is purchased or sold
+                            </p>
+                        </li>
+                    </ul>
                 </div>
                 <div className="col-lg-6 text-right">
                     <img
